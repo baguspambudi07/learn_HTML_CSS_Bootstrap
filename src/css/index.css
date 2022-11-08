@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@1&family=Inter:wght@400;500;600;700&display=swap');
+*{
+    font-family: Inter;
+}
+
+/* HEADER */
+.bg-banner{
+    background-color: #f3f4fb;
+}
+.title-banner{
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn-banner{
+    background-color: #4468e7;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.navbar{
+    border-bottom: 1px solid #efefef;
+    color: #888;
+}
+.active{
+    color:#4468e7!important;
+}
+.btn-nav{
+    background-color: #4468e7;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+/* Content */
+
+.content{
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+    margin-top: 5px; 
+    padding: 20px 255px;
+}
+.content .btn{
+    padding: 10px 10px;
+    color: white;
+    width: max-content;
+    background-color: blue;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.content-title{
+    color: #4468E7;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.content-subtitle{
+    color: #888888;
+    font-size: 16px;
+    font-weight: 400;
+}
+.appui-img{
+    margin-top: 1px;
+    width: 100%;
+}   
+
+/* FOOTER-CONTENT */
+.contents{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 20px 255px;
+    text-align: center;
+}
+.content-title{
+    color: #4468E7;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+}
+.type{
+    color: #888888;
+    font-size: 16px;
+    margin-top: 0px;
+    font-weight: 400;
+
+}
+.content-subtitle{
+    color: #888888;
+    font-size: 18px;
+    font-weight: 400;
+}
+.types{
+    color:#888888;
+}
+.titles{
+    color:#4468e7;
+}
+.subtitles{
+    color:black;
+    font-size: 16px;
+}
+
+/* FOOTER */
+.footer{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 255px;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    color: #888;
+}
